@@ -1,8 +1,9 @@
 - clean: ['~']
 
 - shell:
-   - [git submodule update --innit --recursive, Installing submodules]
+   - [git submodule update --init --recursive, Installing submodules]
 
 - link:
-  # Terminal
+   # Terminal
+   ~/.zshrc: config/zshrc
   
