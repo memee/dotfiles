@@ -7,5 +7,7 @@ tap "homebrew/services"
 tap "neovim/neovim"
 brew "neovim"
 brew "node"
-cask "visual-studio-code"
 cask "font-fira-code"
+cask "tor-browser"
+cask "visual-studio-code"
+

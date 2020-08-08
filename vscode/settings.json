@@ -1,5 +1,10 @@
 {
     "editor.accessibilitySupport": "off",
     "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.easymotion": true,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.replaceWithRegister": true
 }
