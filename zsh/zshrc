@@ -1,3 +1,9 @@
 # User configuration
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+
+# Load zsh files
+for i in $HOME/.config/zsh/*; do;
+    test -r "$i" && source "$i"
+done

@@ -1,3 +1,8 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
 - clean: ['~']
 
 - shell:
@@ -5,7 +10,8 @@
 
 - link:
    # Terminal
-   ~/.zshrc: config/zshrc
+   ~/.zshrc: zsh/zshrc
+   ~/.config/zsh/aliases.zsh: zsh/aliases.zsh
 
 - brewfile:
    file: Brewfile
