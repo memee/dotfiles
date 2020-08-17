@@ -2,22 +2,22 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "2e75b89fde37b586ddc8ed1c87df21533a50a50e"
+        "revision": "40894b3e0cb01c26fd3388309e7e6ae2f35f2593"
       },
       "homebrew/cask": {
-        "revision": "8868a4419b0444d6ce018cc4e9e777a0a345432d"
+        "revision": "6479b94013351dd94767a1d71c85f8520cc7d74c"
       },
       "homebrew/cask-fonts": {
-        "revision": "abfc355b5d289123e1f21fa5760de8a48aca9b01"
+        "revision": "be2313365ccccfa366b2a6f73ac9a71d50ee2c61"
       },
       "homebrew/cask-versions": {
-        "revision": "eeaa1aa1b1a1b0b2f8656b0f4be93c19c35bf1f8"
+        "revision": "4b2da5f7e463d2a152327acb95a991ceb47f9b55"
       },
       "homebrew/core": {
-        "revision": "85331310ed415c177038a669a1ddd6d0da1e5bcc"
+        "revision": "65fa6204913ce8126c1a7a529c5b6cdb71fcc290"
       },
       "homebrew/services": {
-        "revision": "671e81160fbf81409bdbcf7b193f7ba273b41515"
+        "revision": "95a4c434575c715632b7cf19f5fc61413aad1c3b"
       },
       "neovim/neovim": {
         "revision": "e587b5c90456a895a11bc5ae81e5cfdde6b23dd4"
@@ -91,9 +91,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.11",
+        "HOMEBREW_VERSION": "2.4.12",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "85331310ed415c177038a669a1ddd6d0da1e5bcc",
+        "Homebrew/homebrew-core": "65fa6204913ce8126c1a7a529c5b6cdb71fcc290",
         "CLT": "1103.0.32.62",
         "Xcode": "11.5",
         "macOS": "10.15.6"
