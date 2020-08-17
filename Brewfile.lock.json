@@ -11,7 +11,7 @@
         "revision": "be2313365ccccfa366b2a6f73ac9a71d50ee2c61"
       },
       "homebrew/cask-versions": {
-        "revision": "4b2da5f7e463d2a152327acb95a991ceb47f9b55"
+        "revision": "ae2e9aa3628a901efcc0d188b67cea0a88aea3ff"
       },
       "homebrew/core": {
         "revision": "65fa6204913ce8126c1a7a529c5b6cdb71fcc290"
@@ -85,6 +85,10 @@
             }
           }
         }
+      },
+      "yarn": {
+        "version": "1.22.4",
+        "bottle": false
       }
     }
   },
