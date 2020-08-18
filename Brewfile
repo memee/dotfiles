@@ -11,3 +11,4 @@ brew "yarn"
 cask "font-fira-code"
 cask "tor-browser"
 cask "visual-studio-code"
+mas "Xcode", id: 497799835
