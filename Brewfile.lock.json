@@ -2,22 +2,22 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "40894b3e0cb01c26fd3388309e7e6ae2f35f2593"
+        "revision": "8cd670555d856b9baf45794948fdcda12326b27b"
       },
       "homebrew/cask": {
-        "revision": "d557041ca171c39bc94837baca13c045b3ef0a43"
+        "revision": "e0566491282dfebd549c0ed76edcae4fdc297f69"
       },
       "homebrew/cask-fonts": {
         "revision": "be2313365ccccfa366b2a6f73ac9a71d50ee2c61"
       },
       "homebrew/cask-versions": {
-        "revision": "410baa2d5b1a4d0bbf1e1a941ac6a32a638950c8"
+        "revision": "551775c0311da9bdd374a89a04195624c756b00f"
       },
       "homebrew/core": {
-        "revision": "f76a375ae0ac647d118f6cbb448b71835c5cf486"
+        "revision": "ccdb268d1deaa67f89050b252eff78a2489edcfc"
       },
       "homebrew/services": {
-        "revision": "95a4c434575c715632b7cf19f5fc61413aad1c3b"
+        "revision": "2dfec5b4dc3adcea04775a3846da6ff5e61e4eb6"
       },
       "neovim/neovim": {
         "revision": "e587b5c90456a895a11bc5ae81e5cfdde6b23dd4"
@@ -90,6 +90,12 @@
         "version": "1.22.4",
         "bottle": false
       }
+    },
+    "mas": {
+      "Xcode": {
+        "id": "497799835",
+        "version": "11.6"
+      }
     }
   },
   "system": {
@@ -97,9 +103,9 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.12",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f76a375ae0ac647d118f6cbb448b71835c5cf486",
+        "Homebrew/homebrew-core": "ccdb268d1deaa67f89050b252eff78a2489edcfc",
         "CLT": "1103.0.32.62",
-        "Xcode": "11.5",
+        "Xcode": "11.6",
         "macOS": "10.15.6"
       }
     }
