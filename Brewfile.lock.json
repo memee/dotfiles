@@ -2,22 +2,22 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "8cd670555d856b9baf45794948fdcda12326b27b"
+        "revision": "110666adad626439d950b405e4164079f8068fa5"
       },
       "homebrew/cask": {
-        "revision": "e0566491282dfebd549c0ed76edcae4fdc297f69"
+        "revision": "b380cf8d48a54267256f3543c26b5cedb7536e60"
       },
       "homebrew/cask-fonts": {
-        "revision": "be2313365ccccfa366b2a6f73ac9a71d50ee2c61"
+        "revision": "7900f58da1f74289cb8f0ef44fb059175a49870b"
       },
       "homebrew/cask-versions": {
-        "revision": "551775c0311da9bdd374a89a04195624c756b00f"
+        "revision": "195a8635df67537a33bb463a4f11928114e45c65"
       },
       "homebrew/core": {
-        "revision": "ccdb268d1deaa67f89050b252eff78a2489edcfc"
+        "revision": "a2791029d69703975d1b4410000f7aba0d175d9c"
       },
       "homebrew/services": {
-        "revision": "2dfec5b4dc3adcea04775a3846da6ff5e61e4eb6"
+        "revision": "a2c3e50e4d1ac0e5f948f7d7fe17281fe1d18f32"
       },
       "neovim/neovim": {
         "revision": "e587b5c90456a895a11bc5ae81e5cfdde6b23dd4"
@@ -40,6 +40,12 @@
         "version": "9.5.3",
         "options": {
           "full_name": "tor-browser"
+        }
+      },
+      "appcleaner": {
+        "version": "3.5",
+        "options": {
+          "full_name": "appcleaner"
         }
       }
     },
@@ -89,6 +95,31 @@
       "yarn": {
         "version": "1.22.4",
         "bottle": false
+      },
+      "rename": {
+        "version": "1.601",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/rename-1.601.catalina.bottle.tar.gz",
+              "sha256": "494aba9267348e401431cbcb1193df1c1138fda69d66aaa3c7ee229be51277fd"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/rename-1.601.mojave.bottle.tar.gz",
+              "sha256": "13c919a8edd4935b7e5462a172b8336c0425a627f76fd3aa72c652c35ea233cc"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/rename-1.601.high_sierra.bottle.tar.gz",
+              "sha256": "86b4b8a450b749f6fd84d86334d2d9f3a1c57fa3832f6e69d602369b4c6e5300"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/rename-1.601.sierra.bottle.tar.gz",
+              "sha256": "ed4a9403e533b143f8f1ee307035b28c995a13970c64ed7646719e12688ec7a0"
+            }
+          }
+        }
       }
     },
     "mas": {
@@ -101,9 +132,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.12",
+        "HOMEBREW_VERSION": "2.4.13",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ccdb268d1deaa67f89050b252eff78a2489edcfc",
+        "Homebrew/homebrew-core": "a2791029d69703975d1b4410000f7aba0d175d9c",
         "CLT": "1103.0.32.62",
         "Xcode": "11.6",
         "macOS": "10.15.6"
