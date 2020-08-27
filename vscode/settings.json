@@ -10,5 +10,21 @@
 	"editor.formatOnSave": false,
 	"[javascript]": {
 	    "editor.formatOnSave": true
-	}
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "editor.tabSize": 2,
+    "editor.parameterHints.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.quickSuggestionsDelay": 10,
+    "editor.wordBasedSuggestions": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "javascript.implicitProjectConfig.checkJs": true
+
 }
