@@ -2,22 +2,22 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "110666adad626439d950b405e4164079f8068fa5"
+        "revision": "5ddb6cd9f6e7961f1ecd93a9d99abdabdc251bc9"
       },
       "homebrew/cask": {
-        "revision": "b380cf8d48a54267256f3543c26b5cedb7536e60"
+        "revision": "c1c3f749378b5b9679a1931ce0fe4d83923fd88e"
       },
       "homebrew/cask-fonts": {
-        "revision": "7900f58da1f74289cb8f0ef44fb059175a49870b"
+        "revision": "228a17e9dfbece2e14e8ce8bf1b9be67673e2891"
       },
       "homebrew/cask-versions": {
-        "revision": "195a8635df67537a33bb463a4f11928114e45c65"
+        "revision": "9717e0726bec020f93b526f9dbcfcfd611ecb325"
       },
       "homebrew/core": {
-        "revision": "a2791029d69703975d1b4410000f7aba0d175d9c"
+        "revision": "3f39917c6e3704fceaace5f2cb2731b9d1985d33"
       },
       "homebrew/services": {
-        "revision": "a2c3e50e4d1ac0e5f948f7d7fe17281fe1d18f32"
+        "revision": "cddcf1f998b34023b40203a32d8556892e29ed87"
       },
       "neovim/neovim": {
         "revision": "e587b5c90456a895a11bc5ae81e5cfdde6b23dd4"
@@ -51,22 +51,22 @@
     },
     "brew": {
       "node": {
-        "version": "14.8.0",
+        "version": "14.9.0",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.8.0.catalina.bottle.tar.gz",
-              "sha256": "ec85b0f1a6b5ab229ee1445ca604f6455e15dfa632efdb79839296e5c2fc6631"
+              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.catalina.bottle.tar.gz",
+              "sha256": "df9d87a46dfa38140b2742ab1b00121825b92aabbcd98be2b8c7b4900752f749"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.8.0.mojave.bottle.tar.gz",
-              "sha256": "5e2de72f9e1fc18df29226a40ae6efe39bff083f1f91d765c5dbd9db308613ae"
+              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.mojave.bottle.tar.gz",
+              "sha256": "f9c186c264f8b4511b981a7332ffaddd6e58cab2276c45e87c0e75d35a55e43f"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.8.0.high_sierra.bottle.tar.gz",
-              "sha256": "7129555cbbde75ed026b19506fb6f5184545a0ac30121cce63ab92d4310b99a3"
+              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.high_sierra.bottle.tar.gz",
+              "sha256": "2996971a08a2db37f99390a82e5c94850f8dca1006827ce9669ec96bd249b64e"
             }
           }
         }
@@ -93,7 +93,7 @@
         }
       },
       "yarn": {
-        "version": "1.22.4",
+        "version": "1.22.5",
         "bottle": false
       },
       "rename": {
@@ -120,6 +120,27 @@
             }
           }
         }
+      },
+      "watch": {
+        "version": "3.3.16",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/watch-3.3.16.catalina.bottle.tar.gz",
+              "sha256": "011e48363fe62c7a4ba0dec746d5964ee25545bde7855a31db0cb411420df190"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/watch-3.3.16.mojave.bottle.tar.gz",
+              "sha256": "d17aba6f80c530e6b91b30e088df60aab3dc84b2f57ca7499928322438b9f0d2"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/watch-3.3.16.high_sierra.bottle.tar.gz",
+              "sha256": "13d63ebc419965182d98f10b25cc99961679e1ba5ce6118e66b7037eb4e78de8"
+            }
+          }
+        }
       }
     },
     "mas": {
@@ -132,9 +153,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.13",
+        "HOMEBREW_VERSION": "2.4.16",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a2791029d69703975d1b4410000f7aba0d175d9c",
+        "Homebrew/homebrew-core": "3f39917c6e3704fceaace5f2cb2731b9d1985d33",
         "CLT": "1103.0.32.62",
         "Xcode": "11.6",
         "macOS": "10.15.6"
