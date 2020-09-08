@@ -12,6 +12,9 @@
    # Terminal
    ~/.zshrc: zsh/zshrc
    ~/.config/zsh/aliases.zsh: zsh/aliases.zsh
+   # Git:
+   ~/.gitconfig: config/gitconfig
+   ~/.gitignore_global: config/gitignore
 
 - brewfile:
    file: Brewfile
