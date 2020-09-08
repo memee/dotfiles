@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "5ddb6cd9f6e7961f1ecd93a9d99abdabdc251bc9"
+        "revision": "8771b6031c0593aabd0896cd97ecc818f65b2d21"
       },
       "homebrew/cask": {
-        "revision": "c1c3f749378b5b9679a1931ce0fe4d83923fd88e"
+        "revision": "c70ff62a1c0d487f6fcdf103b357f3b412be11ff"
       },
       "homebrew/cask-fonts": {
-        "revision": "228a17e9dfbece2e14e8ce8bf1b9be67673e2891"
+        "revision": "76b0159446017c3805b8a50bcb2fd078a5a30648"
       },
       "homebrew/cask-versions": {
-        "revision": "9717e0726bec020f93b526f9dbcfcfd611ecb325"
+        "revision": "21c1ec097ef613d2481036b9fea6ed0b678cb7e1"
       },
       "homebrew/core": {
-        "revision": "3f39917c6e3704fceaace5f2cb2731b9d1985d33"
+        "revision": "dc4807c6d527b24b5ca64b5fd583c468344da5db"
       },
       "homebrew/services": {
         "revision": "cddcf1f998b34023b40203a32d8556892e29ed87"
@@ -46,6 +46,12 @@
         "version": "3.5",
         "options": {
           "full_name": "appcleaner"
+        }
+      },
+      "xquartz": {
+        "version": "2.7.11",
+        "options": {
+          "full_name": "xquartz"
         }
       }
     },
@@ -141,23 +147,44 @@
             }
           }
         }
+      },
+      "elixir": {
+        "version": "1.10.4",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/elixir-1.10.4.catalina.bottle.tar.gz",
+              "sha256": "ed5f1be4059b41113c35f0a3ae1f01ae5042b143869d22457428507c4a976812"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/elixir-1.10.4.mojave.bottle.tar.gz",
+              "sha256": "8f1dea3bdea9a75644f0a3459d9ed61c391e5e72886f734e8c4dfe0465a94903"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/elixir-1.10.4.high_sierra.bottle.tar.gz",
+              "sha256": "c2e6978c73f4bc53891a7d42aad74a679d6df421caeb595550dfd3193929d7ed"
+            }
+          }
+        }
       }
     },
     "mas": {
       "Xcode": {
         "id": "497799835",
-        "version": "11.6"
+        "version": "11.7"
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.16",
+        "HOMEBREW_VERSION": "2.5.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3f39917c6e3704fceaace5f2cb2731b9d1985d33",
+        "Homebrew/homebrew-core": "dc4807c6d527b24b5ca64b5fd583c468344da5db",
         "CLT": "1103.0.32.62",
-        "Xcode": "11.6",
+        "Xcode": "11.7",
         "macOS": "10.15.6"
       }
     }
