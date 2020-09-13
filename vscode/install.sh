@@ -5,3 +5,4 @@ code --install-extension vscodevim.vim
 code --install-extension GitHub.vscode-pull-request-github 
 code --install-extension felipe.nasc-touchbar
 code --install-extension esbenp.prettier-vscode
+code --install-extension elmtooling.elm-ls-vscode
