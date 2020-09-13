@@ -2,22 +2,22 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "8771b6031c0593aabd0896cd97ecc818f65b2d21"
+        "revision": "18a9b3fb62be07865a7d60e7bdcb0404bfb9e8b0"
       },
       "homebrew/cask": {
-        "revision": "c70ff62a1c0d487f6fcdf103b357f3b412be11ff"
+        "revision": "82928202ba9f42c675c161097628ac881cde5ab1"
       },
       "homebrew/cask-fonts": {
-        "revision": "76b0159446017c3805b8a50bcb2fd078a5a30648"
+        "revision": "7fed4da19bb97769b7d27dcc22c3b8ff99bc99ad"
       },
       "homebrew/cask-versions": {
-        "revision": "21c1ec097ef613d2481036b9fea6ed0b678cb7e1"
+        "revision": "2759ededb09656499989efc6c9391b3def2f91c1"
       },
       "homebrew/core": {
-        "revision": "dc4807c6d527b24b5ca64b5fd583c468344da5db"
+        "revision": "2d28fb1cb54608293671c9df5793d194eaa3eb34"
       },
       "homebrew/services": {
-        "revision": "cddcf1f998b34023b40203a32d8556892e29ed87"
+        "revision": "5ba553ecb4d4dad31eabd9535f262212d5098214"
       },
       "neovim/neovim": {
         "revision": "e587b5c90456a895a11bc5ae81e5cfdde6b23dd4"
@@ -57,22 +57,22 @@
     },
     "brew": {
       "node": {
-        "version": "14.9.0",
+        "version": "14.10.1",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.catalina.bottle.tar.gz",
-              "sha256": "df9d87a46dfa38140b2742ab1b00121825b92aabbcd98be2b8c7b4900752f749"
+              "url": "https://homebrew.bintray.com/bottles/node-14.10.1.catalina.bottle.tar.gz",
+              "sha256": "b4ea8fed48e2880c27d827d23146d81e0fc6768e88d982d134fbb5b97d747cd3"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.mojave.bottle.tar.gz",
-              "sha256": "f9c186c264f8b4511b981a7332ffaddd6e58cab2276c45e87c0e75d35a55e43f"
+              "url": "https://homebrew.bintray.com/bottles/node-14.10.1.mojave.bottle.tar.gz",
+              "sha256": "165646d2fc629d2afc9afda44fd4c467310ed182d31e58e819133c2f6c49b028"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.high_sierra.bottle.tar.gz",
-              "sha256": "2996971a08a2db37f99390a82e5c94850f8dca1006827ce9669ec96bd249b64e"
+              "url": "https://homebrew.bintray.com/bottles/node-14.10.1.high_sierra.bottle.tar.gz",
+              "sha256": "626b3d79f27718ea2e0749ac6a682cb432784910c24d456b4273db7ce8a3d21f"
             }
           }
         }
@@ -168,6 +168,48 @@
             }
           }
         }
+      },
+      "elm": {
+        "version": "0.19.1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/elm-0.19.1.catalina.bottle.tar.gz",
+              "sha256": "e1bbfe4ff7deba3ed60eb55b81b86b6d3346325bea584802ca1212369f0fa0bb"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/elm-0.19.1.mojave.bottle.tar.gz",
+              "sha256": "288eeb47caccfaa9bae220492cee8de7206d40b7760e1e309a139a2398f9710d"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/elm-0.19.1.high_sierra.bottle.tar.gz",
+              "sha256": "7fb65ff925701c39bbc7d9a5099cd88f10a56949ae019bc8817035ed1d56edbd"
+            }
+          }
+        }
+      },
+      "elm-format": {
+        "version": "0.8.3",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/elm-format-0.8.3.catalina.bottle.tar.gz",
+              "sha256": "5a325127c11c78285bfc7c68812dc6c0425c9c3305e32312c10c39e2dc2c1ce9"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/elm-format-0.8.3.mojave.bottle.tar.gz",
+              "sha256": "b785f70ac7b4cb766f7d09e6263268ed2d3934331c65b6f5fde4829a530d5fa3"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/elm-format-0.8.3.high_sierra.bottle.tar.gz",
+              "sha256": "e1807b5063dd15258a1fd041bdc21faea8f598e7c0c8a3f39557e880fc22ec2c"
+            }
+          }
+        }
       }
     },
     "mas": {
@@ -182,7 +224,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "dc4807c6d527b24b5ca64b5fd583c468344da5db",
+        "Homebrew/homebrew-core": "2d28fb1cb54608293671c9df5793d194eaa3eb34",
         "CLT": "1103.0.32.62",
         "Xcode": "11.7",
         "macOS": "10.15.6"
