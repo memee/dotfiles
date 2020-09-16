@@ -5,6 +5,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "neovim/neovim"
+brew "direnv"
 brew "elixir"
 brew "elm"
 brew "elm-format"
@@ -18,3 +19,4 @@ cask "font-fira-code"
 cask "tor-browser"
 cask "visual-studio-code"
 mas "Xcode", id: 497799835
+mas "Day One", id: 1055511498
