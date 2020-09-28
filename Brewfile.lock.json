@@ -2,22 +2,22 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "b84d4569eafe799c7c46c6c12c63215cb8095b6d"
+        "revision": "12702c2b9111a447bb89cd887771d20cffab4e63"
       },
       "homebrew/cask": {
-        "revision": "31da67cf36e2df8162323e179322251c48136b16"
+        "revision": "e8db0695cc56439cd3bcfc39c9b3a4c0b0d5940a"
       },
       "homebrew/cask-fonts": {
-        "revision": "db71e6a6bc22e8121d9df769671396207cd42a6e"
+        "revision": "150a19118317f8725145dcaf0af51d293beba068"
       },
       "homebrew/cask-versions": {
-        "revision": "8290294ea2c10d9bfa2a85a7cc5fafd86dfae7b6"
+        "revision": "47b9f2ac486a61dc399def2ef12acbc4a897336e"
       },
       "homebrew/core": {
-        "revision": "c899d98ff122c16facdf0aa0c206d4c3c6a2a662"
+        "revision": "bac6904fef5f44b25d9bcdb3f0239db8548d8f09"
       },
       "homebrew/services": {
-        "revision": "5ba553ecb4d4dad31eabd9535f262212d5098214"
+        "revision": "3d59cdac249a3edd554357ecf67785020a17dc08"
       },
       "neovim/neovim": {
         "revision": "e587b5c90456a895a11bc5ae81e5cfdde6b23dd4"
@@ -58,6 +58,12 @@
         "version": "4.9.0",
         "options": {
           "full_name": "slack"
+        }
+      },
+      "clockify": {
+        "version": "2.5.5",
+        "options": {
+          "full_name": "clockify"
         }
       }
     },
@@ -255,7 +261,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c899d98ff122c16facdf0aa0c206d4c3c6a2a662",
+        "Homebrew/homebrew-core": "bac6904fef5f44b25d9bcdb3f0239db8548d8f09",
         "CLT": "1103.0.32.62",
         "Xcode": "12.0",
         "macOS": "10.15.6"
