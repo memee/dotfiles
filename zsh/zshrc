@@ -5,6 +5,9 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sb
 # Erlang and Elixir shell history:
 export ERL_AFLAGS="-kernel shell_history enabled"
 
+# Editor:
+export EDITOR=$(which nvim)
+
 # Load zsh files
 for i in $HOME/.config/zsh/*; do;
     test -r "$i" && source "$i"
