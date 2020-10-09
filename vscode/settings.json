@@ -25,6 +25,6 @@
         "comments": false,
         "strings": false
     },
+    "files.insertFinalNewline": true,
     "javascript.implicitProjectConfig.checkJs": true
-
 }
