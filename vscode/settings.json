@@ -26,5 +26,7 @@
         "strings": false
     },
     "files.insertFinalNewline": true,
-    "javascript.implicitProjectConfig.checkJs": true
+    "javascript.implicitProjectConfig.checkJs": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
 }
