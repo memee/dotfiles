@@ -1,32 +1,31 @@
 {
-    "editor.accessibilitySupport": "off",
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "vim.camelCaseMotion.enable": true,
-    "vim.easymotion": true,
-    "vim.enableNeovim": true,
-    "vim.neovimPath": "/usr/local/bin/nvim",
-    "vim.replaceWithRegister": true,
-	"editor.formatOnSave": false,
-	"[javascript]": {
-	    "editor.formatOnSave": true
-    },
-    "[typescript]": {
-        "editor.formatOnSave": true
-    },
-    "editor.tabSize": 2,
-    "editor.parameterHints.enabled": false,
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.quickSuggestionsDelay": 10,
-    "editor.wordBasedSuggestions": false,
-    "editor.acceptSuggestionOnEnter": "on",
-    "editor.quickSuggestions": {
-        "other": false,
-        "comments": false,
-        "strings": false
-    },
-    "files.insertFinalNewline": true,
-    "javascript.implicitProjectConfig.checkJs": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/usr/local/bin/nvim",
+  "vim.replaceWithRegister": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "editor.tabSize": 2,
+  "editor.parameterHints.enabled": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.quickSuggestionsDelay": 10,
+  "editor.wordBasedSuggestions": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "files.insertFinalNewline": true,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
