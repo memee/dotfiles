@@ -5,16 +5,16 @@
         "revision": "78513292658ff002a6a816bdeb9d286150ee1a16"
       },
       "homebrew/cask": {
-        "revision": "a8205ef50f13297dc2d54285c758674184f9954c"
+        "revision": "004d321f8c40c470acb2bd96f407f4f3c0a34c41"
       },
       "homebrew/cask-fonts": {
-        "revision": "255b11b747db57315d5982940dd9b7ae64f26b82"
+        "revision": "f857d333365c48f1e854ad2edbafff0d49ef5056"
       },
       "homebrew/cask-versions": {
-        "revision": "b08a978b5950f426636586ecfc747bcc41d7516a"
+        "revision": "de954982c7c09be8c4ec5648789ce50ce50565dd"
       },
       "homebrew/core": {
-        "revision": "f90640dc44567f9dac1f658b77b51e6dd43e8c43"
+        "revision": "786496a43e65b57680d091ba0ea5a5ac9554a725"
       },
       "homebrew/services": {
         "revision": "0448884d8213af19280ee8fab30af89cca20f630"
@@ -77,26 +77,32 @@
         "options": {
           "full_name": "discord"
         }
+      },
+      "sourcetree": {
+        "version": "4.0.2_236",
+        "options": {
+          "full_name": "sourcetree"
+        }
       }
     },
     "brew": {
       "node": {
-        "version": "14.13.1",
+        "version": "14.13.1_1",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.13.1.catalina.bottle.tar.gz",
-              "sha256": "c5574d926c10ecb8a18faa551f6a15c362512134577110c2678d52db3382ba42"
+              "url": "https://homebrew.bintray.com/bottles/node-14.13.1_1.catalina.bottle.tar.gz",
+              "sha256": "2f3555e90de308f24f5b9a65fc1f3c1f5cc3f14c534f167b3ce4af3f3b7ba3d1"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.13.1.mojave.bottle.tar.gz",
-              "sha256": "3d42a543356788cb20a3cd91306e9e533c2939b7609c3dc91ffdd405fab1b25f"
+              "url": "https://homebrew.bintray.com/bottles/node-14.13.1_1.mojave.bottle.tar.gz",
+              "sha256": "3442abd6c0b2fd94721cc4b7ae8af0afda7289d66f4fd038f842cbea8868d84e"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/node-14.13.1.high_sierra.bottle.tar.gz",
-              "sha256": "8c9d9dd8a341bd74aec4e8ba1a8abb8ba92e137d771290613676798f0b4a61ba"
+              "url": "https://homebrew.bintray.com/bottles/node-14.13.1_1.high_sierra.bottle.tar.gz",
+              "sha256": "a4cf1045d1e9e2544bb0482dc3ad38242b374a817f17215be9129189b8bd595f"
             }
           }
         }
@@ -236,22 +242,22 @@
         }
       },
       "direnv": {
-        "version": "2.22.1",
+        "version": "2.23.0",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/direnv-2.22.1.catalina.bottle.tar.gz",
-              "sha256": "44e70a14fb3eff7708df0c7aa46701b4476568cf2b7fd06f68ced2dd0a4c52f7"
+              "url": "https://homebrew.bintray.com/bottles/direnv-2.23.0.catalina.bottle.tar.gz",
+              "sha256": "b5b5d510abe32133caad83648afc0950dcfbf9ea0ecdd305efe155817bff0b8b"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/direnv-2.22.1.mojave.bottle.tar.gz",
-              "sha256": "3214ef11c015566e5d4891242659d89705dc45ee84c76493280d88264cc2cff8"
+              "url": "https://homebrew.bintray.com/bottles/direnv-2.23.0.mojave.bottle.tar.gz",
+              "sha256": "0339beb93dee2207dc3fdf9236a6a80bde6f6207dcfaee5f812d6700a8622f1f"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/direnv-2.22.1.high_sierra.bottle.tar.gz",
-              "sha256": "7463876a5196f01d219cdadd5d57ee4f035e0d4c37dbf9d18bc8d99738c05160"
+              "url": "https://homebrew.bintray.com/bottles/direnv-2.23.0.high_sierra.bottle.tar.gz",
+              "sha256": "4f66782d86962cfec8c4383d8a0195eb4f8b3df44fc707f33eb5662e5aca76b9"
             }
           }
         }
@@ -439,9 +445,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.5.5",
+        "HOMEBREW_VERSION": "2.5.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f90640dc44567f9dac1f658b77b51e6dd43e8c43",
+        "Homebrew/homebrew-core": "786496a43e65b57680d091ba0ea5a5ac9554a725",
         "CLT": "1103.0.32.62",
         "Xcode": "12.0.1",
         "macOS": "10.15.7"

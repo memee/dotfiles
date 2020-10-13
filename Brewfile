@@ -24,6 +24,7 @@ cask "clockify"
 cask "discord"
 cask "font-fira-code"
 cask "slack"
+cask "sourcetree"
 cask "tor-browser"
 cask "visual-studio-code"
 mas "Xcode", id: 497799835
