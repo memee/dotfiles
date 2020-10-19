@@ -7,3 +7,4 @@ code --install-extension felipe.nasc-touchbar
 code --install-extension esbenp.prettier-vscode
 code --install-extension elmtooling.elm-ls-vscode
 code --install-extension johnpapa.vscode-peacock
+code --install-extension eamodio.gitlens
