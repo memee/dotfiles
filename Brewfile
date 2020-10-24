@@ -30,3 +30,4 @@ cask "tor-browser"
 cask "visual-studio-code"
 mas "Xcode", id: 497799835
 mas "Day One", id: 1055511498
+mas "Flycut", id: 442160987
