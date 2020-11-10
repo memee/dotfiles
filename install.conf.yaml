@@ -3,35 +3,41 @@
       create: true
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - shell:
-   - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
 
 - link:
-   # Terminal
-   ~/.zshrc: zsh/zshrc
-   ~/.config/zsh/aliases.zsh: zsh/aliases.zsh
-   # Git:
-   ~/.gitconfig: config/gitconfig
-   ~/.gitignore_global: config/gitignore
+    # Terminal
+    ~/.zshrc: zsh/zshrc
+    ~/.config/zsh/aliases.zsh: zsh/aliases.zsh
+    # Git:
+    ~/.gitconfig: config/gitconfig
+    ~/.gitignore_global: config/gitignore
+    # Emacs:
+    ~/.emacs.d/init.el: emacs/init.el
+    ~/.emacs.d/themes:
+      path: emacs/themes/*
+      create: true
+      glob: true
 
 - brewfile:
-   file: Brewfile
-  
+    file: Brewfile
+
 # Setting up vscode:
 - link:
-   # vscode:
-   "~/Library/Application Support/Code/User/settings.json":
+    # vscode:
+    "~/Library/Application Support/Code/User/settings.json":
       path: vscode/settings.json
       create: true
-   "~/Library/Application Support/Code/User/keybindings.json":
+    "~/Library/Application Support/Code/User/keybindings.json":
       path: vscode/keybindings.json
       create: true
 
 - shell:
-   - [bash ./vscode/install.sh, Installing vscode extensions]
+    - [bash ./vscode/install.sh, Installing vscode extensions]
 
 # Cleaning up:
 - shell:
-   - [brew cleanup, Cleaning up]
+    - [brew cleanup, Cleaning up]
