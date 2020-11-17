@@ -8,3 +8,4 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension elmtooling.elm-ls-vscode
 code --install-extension johnpapa.vscode-peacock
 code --install-extension eamodio.gitlens
+code --install-extension yzhang.markdown-all-in-one
