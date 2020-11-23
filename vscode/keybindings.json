@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "command": "merge-conflict.next",
+    "when": "editorTextFocus",
+    "key": "alt+m down"
+  },
+  {
+    "command": "merge-conflict.previous",
+    "when": "editorTextFocus",
+    "key": "alt+m up"
+  }
+]
