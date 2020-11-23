@@ -1,12 +1,8 @@
 {
   "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": ["source.addMissingImports"],
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "vim.camelCaseMotion.enable": true,
-  "vim.easymotion": true,
-  "vim.enableNeovim": true,
-  "vim.neovimPath": "/usr/local/bin/nvim",
-  "vim.replaceWithRegister": true,
   "[javascript]": {
     "editor.formatOnSave": true
   },
@@ -27,5 +23,63 @@
   "files.insertFinalNewline": true,
   "javascript.implicitProjectConfig.checkJs": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "window.autoDetectColorScheme": true,
+  "terminal.integrated.macOptionIsMeta": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "tabnine.experimentalAutoImports": true,
+  "yaml.schemas": {
+    "file:///Users/macio/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Default Light+",
+  "workbench.editor.enablePreview": false,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "4d538e7b-c24c-448c-b964-0cedfb791a93",
+      "enabled": true,
+      "name": "My happybyte Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "82b4bdff-6593-4c2f-81c6-e78db0645daa",
+      "monitor": true
+    }
+  ]
 }
