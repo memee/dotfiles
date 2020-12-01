@@ -24,10 +24,11 @@ cask "appcleaner"
 cask "clockify"
 cask "discord"
 cask "font-fira-code"
+cask "licecap"
 cask "slack"
 cask "sourcetree"
 cask "tor-browser"
 cask "visual-studio-code"
 mas "Xcode", id: 497799835
-mas "Day One", id: 1055511498
 mas "Flycut", id: 442160987
+mas "iA Writer", id: 775737590
