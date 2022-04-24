@@ -1,0 +1,3 @@
+#!/usr/bin/env $SHELL 
+
+open -na "WebStorm.app" --args "$@"

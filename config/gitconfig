@@ -1,5 +1,5 @@
 [core]
-  excludesfile = ~/.gitignore_global
+	excludesfile = /Users/macio/.gitignore_global
 [credential]
   helper = osxkeychain
 [fetch]
@@ -25,3 +25,13 @@
   pf = push --force-with-lease
   st = status
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+	name = Maciej Maciaszek
+	email = maciej.maciaszek@gmail.com
+[commit]
+	template = /Users/macio/.stCommitMsg
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

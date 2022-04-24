@@ -21,6 +21,8 @@
       path: emacs/themes/*
       create: true
       glob: true
+    ~/.shell: shell/
+    ~/.inputrc: bash/inputrc
 
 - brewfile:
     file: Brewfile

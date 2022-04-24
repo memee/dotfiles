@@ -1,7 +1,7 @@
 # User configuration
 set -o emacs
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:../bin"
 
 # Erlang and Elixir shell history:
 export ERL_AFLAGS="-kernel shell_history enabled"
@@ -13,6 +13,8 @@ export EDITOR=$(which nvim)
 for i in $HOME/.config/zsh/*; do;
     test -r "$i" && source "$i"
 done
+
+source ~/.shell/functions.sh
 
 # look at https://docs.brew.sh/Shell-Completion
 if type brew &>/dev/null; then

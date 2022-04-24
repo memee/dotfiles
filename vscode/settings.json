@@ -29,7 +29,7 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "tabnine.experimentalAutoImports": true,
   "yaml.schemas": {
-    "file:///Users/macio/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/macio/.vscode/extensions/atlassian.atlascode-2.10.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "peacock.favoriteColors": [
     {
@@ -70,7 +70,6 @@
     }
   ],
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Default Light+",
   "workbench.editor.enablePreview": false,
   "atlascode.jira.jqlList": [
     {
@@ -81,5 +80,16 @@
       "siteId": "82b4bdff-6593-4c2f-81c6-e78db0645daa",
       "monitor": true
     }
-  ]
+  ],
+  "window.zoomLevel": 0,
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "89c141b3-ad98-4834-8cb7-9bd9baaa2256",
+    "projectKey": ""
+  },
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODUwLFwiaGVpZ2h0XCI6MTEwMH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  "angular.experimental-ivy": true,
+  "files.associations": {
+    ".env": "shellscript"
+  },
+  "redhat.telemetry.enabled": false
 }
