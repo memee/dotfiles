@@ -34,3 +34,4 @@ cask "visual-studio-code"
 mas "Xcode", id: 497799835
 mas "Flycut", id: 442160987
 mas "iA Writer", id: 775737590
+mas "1Password 7 - Password Manager", id: 1333542190
