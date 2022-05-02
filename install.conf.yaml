@@ -11,6 +11,7 @@
 - link:
     # Terminal
     ~/.zshrc: zsh/zshrc
+    ~/.zprofile: zsh/zprofile.zsh
     ~/.config/zsh/aliases.zsh: zsh/aliases.zsh
     # Git:
     ~/.gitconfig: config/gitconfig
